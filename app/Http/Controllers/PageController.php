@@ -10,7 +10,6 @@ class PageController extends Controller
         $name = "Marcus M. Bruno";
         $section = "4-2";
 
-        // return view('page1', compact('name','section'));
         return view('page1')->with(compact('name', 'section'));
     }
 
@@ -18,7 +17,6 @@ class PageController extends Controller
         $quote = "Tatagos ka ba sah?";
         $response = "Omsimm";
 
-        // return view('page1', compact('name','section'));
         return view('page2')->with(compact('quote', 'response'));
     }
 
