@@ -1,8 +1,7 @@
 @extends('layout.app')
 
 @section('page-content')
-
-<div class="relative overflow-x-auto">
+<div>
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mt-10">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -69,10 +68,3 @@
 
 @endsection
 
-@section('page-card')
-    <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </a>
-@endsection

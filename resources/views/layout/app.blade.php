@@ -11,7 +11,7 @@
 
 @include('include.navbar')
 
-<div class="container p-15">
+<div class="container p-10 mx-auto">
     @yield('page-content')
 </div>
 
